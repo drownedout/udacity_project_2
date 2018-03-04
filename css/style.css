@@ -1,0 +1,112 @@
+html {
+	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 5%;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+header {
+	border-bottom: 4px solid #7d97ad;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.logo {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.logo, .header-content-container {
+	width: 50%;
+	margin: 0;
+}
+
+.header-name,
+.header-title {
+	font-weight: 300;
+	color: #2d3c49;
+	text-align: right;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.header-name {
+	font-size: 3rem;
+}
+
+.jumbotron-container {
+	width: 100%;
+	max-height: 450px;
+	overflow: hidden;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+.project-title {
+	font-size: 2rem;
+	color: #7d97ad;
+	font-weight: 300;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-container {
+	text-align: center;
+	overflow: hidden;
+	width: 32%;
+}
+
+.project-container:nth-child(2){
+	margin: 0 2%;
+}
+
+.project-image {
+	width: 100%;
+	max-height: 230px;
+}
+
+.project-image:hover {
+	cursor:pointer;
+	opacity: .8;
+}
+
+.project-container > h2 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin: .5rem 0;
+}
+
+.project-link {
+	margin: .25rem 0;
+}
+
+.project-link > a {
+	text-decoration: none;
+	color: #000;
+}
+
+.project-link > a:hover {
+	cursor: pointer;
+	color: #02b3e4;
+}
