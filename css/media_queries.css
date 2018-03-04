@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px){
+	.projects{
+		display: block;
+	}
+	.project-container {
+		width: 90%;
+		margin: 2rem auto;
+	}
+}
+
+@media screen and (min-width: 501px){
+	.project-container:nth-child(2){
+		margin: 0 2%;
+	}
+}

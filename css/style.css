@@ -12,9 +12,12 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 5%;
 	font-size: 1rem;
 	line-height: 1.5;
+}
+
+.container {
+	margin: 0 5%;
 }
 
 header {
@@ -23,8 +26,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 0;
-	margin-bottom: 2rem;
 	width: 100%;
+}
+
+main {
+	margin: 2rem auto 4rem auto;
 }
 
 .logo {
@@ -32,8 +38,8 @@ header {
 	max-width: 100px;
 }
 
-.logo, .header-content-container {
-	width: 50%;
+.logo, 
+.header-content-container {
 	margin: 0;
 }
 
@@ -77,10 +83,6 @@ header {
 	width: 32%;
 }
 
-.project-container:nth-child(2){
-	margin: 0 2%;
-}
-
 .project-image {
 	width: 100%;
 	max-height: 230px;
@@ -106,7 +108,16 @@ header {
 	color: #000;
 }
 
-.project-link > a:hover {
+.project-link > a:hover, 
+.project-container > h2:hover {
 	cursor: pointer;
 	color: #02b3e4;
+}
+
+footer {
+	background-color: #02b3e4;
+	text-align: center;
+	color: #fff;
+	padding: 1rem;
+	width: 100%;
 }
